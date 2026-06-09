@@ -592,6 +592,7 @@ const Results = () => {
 
       <main className="pt-20 pb-24 px-4">
         <div className="container mx-auto max-w-5xl">
+          <h1 className="sr-only">{t('results.title')}</h1>
           {/* Status Header */}
           <motion.div
             className="text-center mb-8"

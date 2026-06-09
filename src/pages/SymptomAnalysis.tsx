@@ -292,6 +292,8 @@ const SymptomAnalysis = () => {
                     />
                     <button
                       onClick={toggleRecording}
+                      aria-label={!speech.isSupported ? "Voice input not supported in this browser" : speech.isListening ? "Stop voice recording" : "Start voice input"}
+                      aria-pressed={speech.isListening}
                       title={!speech.isSupported ? "Voice input not supported in this browser" : speech.isListening ? "Stop recording" : "Start voice input"}
                       disabled={!speech.isSupported}
                       className={cn(

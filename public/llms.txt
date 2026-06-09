@@ -1,0 +1,17 @@
+# MediMatch
+
+> AI-powered healthcare navigation: symptom analysis, specialist matching, and access to government health schemes across India.
+
+MediMatch helps patients describe symptoms in plain language (or voice), get an AI-driven preliminary assessment, and find the right doctor, hospital, or government scheme nearby. Multilingual (English, Hindi, Bengali, Marathi, Punjabi, and more) with video consultations and in-app appointment management.
+
+## Pages
+
+- [Home](/): Overview of MediMatch and how AI-driven healthcare navigation works.
+- [Symptom Analysis](/symptoms): Describe symptoms via text, voice, or body map for AI assessment.
+- [Results](/results): Personalized specialist recommendations and urgency guidance.
+- [Find Doctors](/doctors): Searchable directory of verified specialists with map and list views.
+- [Dashboard](/dashboard): Health dashboard with personal analytics.
+
+## Optional
+
+- [Sign in](/auth): Account access for patients and doctors.
